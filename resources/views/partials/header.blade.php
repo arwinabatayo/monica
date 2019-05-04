@@ -1,12 +1,7 @@
-<nav class="bg-blue-monica">
+<nav class="bg-green-monica">
   <div class="ph3 ph5-ns pv2 cf w-100">
     <div class="mw9 center dt w-100">
       <div class="w-50-l w-100 dtc-l v-mid">
-        <div class="tc dib-l">
-          <a href="{{ route('dashboard.index') }}" class="header-logo {{ htmldir() == 'rtl' ? 'ml2' : 'mr2' }}">
-            <img src="img/monica_reverse.svg" width="40" height="43" />
-          </a>
-        </div>
         <div class="dib w-60-l w-100 header-search">
           <form role="search" method="POST" action="{{ route('people.search') }}">
             {{ csrf_field() }}
