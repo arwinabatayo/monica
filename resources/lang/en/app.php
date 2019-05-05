@@ -38,9 +38,9 @@ return [
     'percent_uploaded' => '{percent}% uploaded',
     'retry' => 'Retry',
 
-    'application_title' => 'Monica – personal relationship manager',
-    'application_description' => 'Monica is a tool to manage your interactions with your loved ones, friends and family.',
-    'application_og_title' => 'Have better relations with your loved ones. Free Online CRM for friends and family.',
+    'application_title' => 'Techy7 CRM – Customer Relationship Manager',
+    'application_description' => 'Techy7 CRM is a tool to manage your interactions with your customers',
+    'application_og_title' => 'Techy7 CRM is a tool to manage your interactions with your customers',
 
     'markdown_description' => 'Want to format your text in a nice way? We support Markdown to add bold, italic, lists and more.',
     'markdown_link' => 'Read documentation',

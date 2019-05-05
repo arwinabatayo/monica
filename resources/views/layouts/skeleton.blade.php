@@ -15,7 +15,7 @@
       <link rel="stylesheet" href="{{ asset(mix('css/stripe.css')) }}">
     @endif
 
-    <link rel="shortcut icon" href="img/favicon.png">
+    <link rel="shortcut icon" href="img/favicon.ico">
     <script>
       window.Laravel = {!! json_encode([
           'csrfToken' => csrf_token(),
