@@ -3,7 +3,7 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>Welcome to Monica</title>
+    <title>Welcome to Techy7 CRM</title>
     <!--
     The style block is collapsed on page load to save you some scrolling.
     Postmark automatically inlines all CSS properties for maximum email client
@@ -387,9 +387,7 @@
           <table class="email-content" width="100%" cellpadding="0" cellspacing="0">
             <tr>
               <td class="email-masthead">
-                <a href="https://example.com" class="email-masthead_name">
-        Monica
-      </a>
+                <a href="https://techy7.com" class="email-masthead_name">Techy7 CRM: Trainstation Philippines</a>
               </td>
             </tr>
             <!-- Email Body -->
@@ -400,7 +398,7 @@
                   <tr>
                     <td class="content-cell">
                       <h1>Hello,</h1>
-                      <p>You've been invited by {{ $invitation->invitedBy->name }} ({{ $invitation->invitedBy->email }}) to use Monica, a nice Personal Relationship Management tool.</p>
+                      <p>You've been invited by {{ $invitation->invitedBy->name }} ({{ $invitation->invitedBy->email }}) to use Techy7 CRM: Customer Relationship Management tool.</p>
                       <p>To accept the invitation, click on the link below:</p>
                       <!-- Action -->
                       <table class="body-action" align="center" width="100%" cellpadding="0" cellspacing="0">
@@ -436,12 +434,7 @@
                 <table class="email-footer" align="center" width="570" cellpadding="0" cellspacing="0">
                   <tr>
                     <td class="content-cell" align="center">
-                      <p class="sub align-center">&copy; {{ \Jenssegers\Date\Date::now(\App\Helpers\DateHelper::getTimezone())->year }} Monica. All rights reserved.</p>
-                      <p class="sub align-center">
-                        Monica
-                        <br>2889 rue de Rouen
-                        <br>Montreal, QC, H2K 1N8
-                      </p>
+                      <p class="sub align-center">&copy; {{ \Jenssegers\Date\Date::now(\App\Helpers\DateHelper::getTimezone())->year }} Techy7 CRM. All rights reserved.</p>
                     </td>
                   </tr>
                 </table>
