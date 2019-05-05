@@ -314,7 +314,7 @@
       border-bottom: 10px solid #3869D4;
       border-left: 18px solid #3869D4;
       display: inline-block;
-      color: #FFF;
+      color: #ffffff;
       text-decoration: none;
       border-radius: 3px;
       box-shadow: 0 2px 3px rgba(0, 0, 0, 0.16);
@@ -407,7 +407,7 @@
                                   <table border="0" cellspacing="0" cellpadding="0">
                                     <tr>
                                       <td>
-                                        <a href="{{ config('app.url') }}/invitations/accept/{{ $invitation->invitation_key }}" class="button button--green" target="_blank">Accept invitation</a>
+                                        <a href="{{ config('app.url') }}/invitations/accept/{{ $invitation->invitation_key }}" class="button button--green" target="_blank" style="color: #ffffff">Accept invitation</a>
                                       </td>
                                     </tr>
                                   </table>
