@@ -385,11 +385,6 @@
       <tr>
         <td align="center">
           <table class="email-content" width="100%" cellpadding="0" cellspacing="0">
-            <tr>
-              <td class="email-masthead">
-                <a href="https://techy7.com" class="email-masthead_name">Techy7 CRM: Trainstation Philippines</a>
-              </td>
-            </tr>
             <!-- Email Body -->
             <tr>
               <td class="email-body" width="100%" cellpadding="0" cellspacing="0">
@@ -423,18 +418,7 @@
                         </tr>
                       </table>
                       <p>Thanks,
-                        <br>Your friends at Monica</p>
-                    </td>
-                  </tr>
-                </table>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <table class="email-footer" align="center" width="570" cellpadding="0" cellspacing="0">
-                  <tr>
-                    <td class="content-cell" align="center">
-                      <p class="sub align-center">&copy; {{ \Jenssegers\Date\Date::now(\App\Helpers\DateHelper::getTimezone())->year }} Techy7 CRM. All rights reserved.</p>
+                        <br>Your friends at Techy7 CRM</p>
                     </td>
                   </tr>
                 </table>

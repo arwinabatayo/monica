@@ -31,7 +31,7 @@ class InvitationSent extends Mailable
     public function build()
     {
         return $this->view('emails.invitation.index')
-                    ->subject('You are invited to join Monica')
+                    ->subject('You are invited to join Techy7 CRM: Trainstation Philippines')
                     ->with([
                         'invitation' => $this->invitation,
                     ]);
