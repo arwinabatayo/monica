@@ -43,7 +43,7 @@ Route::middleware(['auth', 'verified', 'mfa'])->group(function () {
 
     Route::get('/compliance', 'ComplianceController@index')->name('compliance');
     Route::post('/compliance/sign', 'ComplianceController@store');
-    Route::get('/changelog', 'ChangelogController@index')->name('changelog.index');
+    #Route::get('/changelog', 'ChangelogController@index')->name('changelog.index');
 
     Route::get('/emotions', 'EmotionController@primaries');
     Route::get('/emotions/primaries/{emotion}/secondaries', 'EmotionController@secondaries');
