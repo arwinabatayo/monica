@@ -12,7 +12,7 @@
     <meta name="description" content="{{ trans('app.application_description') }}">
     <link rel="author" href="@djaiss">
     <meta property="og:title" content="{{ trans('app.application_og_title') }}" />
-    <link rel="shortcut icon" href="img/favicon.png">
+    <link rel="shortcut icon" href="img/favicon.ico">
   </head>
 
   @yield('content')
