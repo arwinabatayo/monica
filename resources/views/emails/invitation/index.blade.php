@@ -407,7 +407,7 @@
                                   <table border="0" cellspacing="0" cellpadding="0">
                                     <tr>
                                       <td>
-                                        <a href="{{ config('app.url') }}/invitations/accept/{{ $invitation->invitation_key }}" class="button button--" target="_blank">Accept invitation</a>
+                                        <a href="{{ config('app.url') }}/invitations/accept/{{ $invitation->invitation_key }}" class="button button--green" target="_blank">Accept invitation</a>
                                       </td>
                                     </tr>
                                   </table>
