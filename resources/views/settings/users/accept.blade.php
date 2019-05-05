@@ -59,7 +59,7 @@
               </div>
 
               <div class="help">
-                  {!! trans('auth.register_policy', ['url' => 'https://techy7.com/privacy-policy/']) !!}
+                  {!! trans('auth.register_policy', ['url' => 'https://techy7.com/privacy-policy/','urlterm' => 'https://techy7.com/terms-of-service/']) !!}
               </div>
 
             </form>
