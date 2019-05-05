@@ -9,7 +9,7 @@
 
             <div class="dt w-100">
               <div class="dtc tc">
-                <img src="img/monica.svg" width="97" height="88" alt="">
+                <img src="img/techy7.svg" width="278" height="83" alt="techy7">
               </div>
             </div>
             <h2>{{ trans('auth.confirmation_title') }}</h2>

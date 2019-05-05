@@ -9,7 +9,7 @@
           <div class="signup-box">
             <div class="dt w-100">
               <div class="dtc tc">
-                <img src="img/monica.svg" width="97" height="88" alt="">
+                <img src="img/techy7.svg" width="278" height="83" alt="techy7">
               </div>
             </div>
             <h2>{{ trans('settings.users_accept_title') }}</h2>
@@ -59,7 +59,7 @@
               </div>
 
               <div class="help">
-                  {!! trans('auth.register_policy', ['url' => 'https://monicahq.com/privacy', 'hreflang' => 'en']) !!}
+                  {!! trans('auth.register_policy', ['url' => 'https://techy7.com/privacy-policy/']) !!}
               </div>
 
             </form>
